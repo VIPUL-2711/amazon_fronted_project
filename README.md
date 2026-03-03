@@ -24,7 +24,7 @@ How to Run
 -Download the project
 -Open index.html in your browser
 
-## 📸 Project Screenshot
+## Project Screenshot
 ![Amazon Clone](screenshot.png)
 
 
