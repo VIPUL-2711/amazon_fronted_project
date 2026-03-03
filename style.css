@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/* Logo box */
+.nav-logo{
+    height: 50px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Actual logo */
+.logo{
+    background-image: url("White-Amazon-Logo-PNG-HD-Quality.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 9px;
+    height: 40px;
+    width: 140px;
+}
+   
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* box 2 location*/
+.first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 22px;
+    
+}
+.second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box 3 search **/
+.search-bar{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* Dropdown */
+.search-select{
+    width: 55px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 0.85rem;
+    text-align: center;
+    outline: none;
+}
+
+/* Input takes ALL remaining space */
+.search{
+    flex: 1;                 
+    border: none;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+/* Search button (right side only) */
+.search-logo{
+    width: 45px;
+    background-color: #febd69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+
+.search-bar:hover{
+    border: 3px solid orange;
+}
+
+/**box 4 **/
+span{
+    font-size:0.85rem;
+    font-weight: normal;
+}
+
+.sign{
+    font-size: 1rem;
+    font-weight:bold;
+}
+
+ /* box 6 cart */
+.cart i{
+    font-size: 30px;
+    
+}
+.cart{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* panel part */
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+/* panel option */
+.panel-option p {
+    display: inline;
+    margin-left: 16px;
+}
+.panel-option{
+    font-size: 1rem;
+    width: 70%;
+}
+.panel-right{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* hero section */
+.hero-section{
+    background-image: url("bgamazon.jpg");
+    height: 380px;
+    background-size: cover;
+}
+
+/* shop section */
+.content{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;     
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 10px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    margin-top: 15px;
+    height: 320px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.box-cont{
+    margin-left: 10px;
+}
+.box-cont p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #285280;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.85rem;
+}
+/* footer-foot */
+
+.foot-footer{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    /* align-items: center; */
+
+
+}
+ul a {
+    display: block;
+    margin:10px;
+
+}
+ul p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.country{
+    background-color: #222f3d;
+    color: white;
+    border-top: 1.5px solid white;
+    display: flex;
+    justify-content: space-evenly ;
+    height: 70px;
+
+
+}
+.country-logo{
+    background-image: url("White-Amazon-Logo-PNG-HD-Quality.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 9px;
+    height: 40px;
+    width: 140px;
+
+}
+.foot-panel-last{
+    background-color:#0f1111;
+    color: white;
+    height: 100px;
+}
+.pages{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.copy{
+    margin-top: 10px;
+    text-align: center;
+}
