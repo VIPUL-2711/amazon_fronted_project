@@ -7,6 +7,7 @@ About This Project
 -I created this project to practice HTML and CSS.
 -It is a front-end design of the Amazon website.
 
+
 Technologies Used
 
 -HTML
